@@ -324,7 +324,7 @@
           </address>
         </div>
         <div class="footer-soc">
-          <h2 class="footer-soc-title title">присоединяйтесь</h2>
+          <p class="footer-soc-title title">присоединяйтесь</p>
           <ul class="footer-soc-list list">
             <li class="footer-soc-item">
               <a href="" class="footer-soc-link link"
@@ -353,6 +353,30 @@
               ></a>
             </li>
           </ul>
+        </div>
+        <div class="subscribe">
+          <p class="subscribe-title">Подпишитесь на рассылку</p>
+          <form name="subscribe-form">
+            <div class="subscribe-wrap">
+              <label for="subscribe-label"></label>
+              <input
+                type="mail"
+                class="subscribe-input"
+                name="user-email"
+                id="subscribe-label"
+                placeholder="E-mail"
+                required
+              />
+              <div class="button-wraper">
+                <button type="submit" class="subscribe-button">
+                  Подписаться
+                  <svg class="subscribe-icon" width="24" height="24">
+                    <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </footer>

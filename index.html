@@ -487,8 +487,10 @@
               <input
                 type="email"
                 class="subscribe-input"
+                name="user-email"
                 id="subscribe-label"
                 placeholder="E-mail"
+                required
               />
               <div class="button-wraper">
                 <button type="submit" class="subscribe-button">
@@ -577,15 +579,13 @@
               class="check-box visually-hidden"
             />
             <label for="agreement" class="agreement-check">
-              <span>
+              <span class="agreement-box">
                 <svg class="check-icon" width="16" height="15">
                   <use href="./images/symbol-defs.svg#icon-galochka"></use>
-                </svg>
-              </span>
-              Соглашаюсь с рассылкой и принимаю<a href="">
-                Условия договора</a
-              ></label
-            >
+                </svg> </span
+              >Соглашаюсь с рассылкой и принимаю
+              <a href="" class="agreement-link">Условия договора</a>
+            </label>
           </div>
           <button type="submit" class="btn-submit">Отправить</button>
         </form>
